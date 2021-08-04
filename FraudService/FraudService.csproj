@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>dotnet-FraudService-791FEF03-1044-4962-B5C3-8BB17765DDF3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Coravel" Version="4.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0-preview.5.21301.5" />
+    <PackageReference Include="Vonage" Version="5.9.0" />
+  </ItemGroup>
+</Project>
